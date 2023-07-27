@@ -1,0 +1,31 @@
+""Jenkins is a open-source automation tool written in java and build-in plugins for continuous
+intregation purpose. With jenkins the developer can intregate the changes.
+
+To create a pipeline in jenkins we need to perform some steps:-
+
+First we need to install the github plugins by going to the manage plugin section in the 
+jenkins gui and then we need to click on the new item and select the freestyle project
+
+After selecting the freestyle project under the source code management tab we need to select
+the git and provide our github repository link and click ok
+
+Then will click on build now and in the output section we can view that the entire github repository
+has been copied to the jenkins workspace that can be view in /var/lib/jenkins/workspace
+
+If we want to intregate maven with jenkins then we nned to first setup the enviornment variable
+like JAVA_HOME,M2,M2_HOME in the bash profile and then in the global configuration tool seeting 
+in the jenkins gui we need to provide the java and maven path and then we need to go to the 
+new item and select the maven project and provide our github repository link. We will see
+that it will create the artifact which can be view in /var/lib/jenkins/workspace under target folder
+
+if we want to create CI/CD pipeline for java application we can intregate quality check like
+sonar cubes which will provide extra code coverages . we can also intregate security scans like
+vera code as well.
+
+In the microservice enviornment we can have seperate pipeline for each microservices by implementing
+above steps for the CI.
+
+Jenkinsfile is a text file that contains the definition of a 
+Jenkins Pipeline and is checked into source control.
+
+""

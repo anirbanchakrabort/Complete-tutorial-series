@@ -1,0 +1,58 @@
+""Auto-scalling is the service in aws which is used to scale-in or scale-out number of instances
+as per the demand/load. Auto scale provides us with scalabiltiy and elasticity.
+scalabiltiy means to more resources to the exixting resources(cpu,ram) and elasticity means 
+adding more power to compute resources.
+We can create one or more EC2 instances which is called as auto-scalling group.
+
+Types of Auto scalling-
+
+>Target tracking
+>simple scalling
+>step scalling
+>vertical scalling
+
+Load-balancer - Load-balancer are the services in aws which is used to distribute the loads 
+among different targets like EC2 , ECS and ip addresses.
+
+Types of load-balancer
+
+>Application load-balancer - It runs on the layer 7 of the OSI model.It is http/https based 
+load balancer
+
+>Network load-balancer - It runs on the layer 4 of the OSI model. It is Tcp/Udp based load 
+balancer
+
+>Gateway load-balancer - It runs on the layer 3 of the OSI model. It seats between differnt in applications
+in AWS
+
+Route53 - Route53 is highly scalable and available domain name system which provide buisnesses
+and developer to route the end-user in in the internet by translating the domain name into ip
+addresses. Route53 provide helth check option for all the services and also provide fault-taularent.
+We can create dns records using route53
+
+Type of dns record-
+
+>A record
+>cname record
+>AAAA record
+>c-type record
+
+ACM - ACM is AWS certificate manager is used for issuing public ssl/ttl certificated in AWS
+which are used by other AWS services.Certificates are used to communicate securely between the
+applications.
+
+Cloudformation - is a service that helps us to model and setup our resources so that we spend
+less time in managing the resources and focus more time in on running the aws resources.
+We can also create template and Cloudformation will provision and configure our resources
+
+API gateway - API gateway is a service in AWS which is to create , manage and secure our 
+API at any scale.
+
+There are three types of API in AWS
+
+>Http API
+>Restfull API
+>WebSocket Api
+
+
+""

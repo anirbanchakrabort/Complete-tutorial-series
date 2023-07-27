@@ -1,0 +1,10 @@
+""SNS - SNS is the simple notification service in aws which is used to send notification to 
+different services in aws. It uses the subscriber/publisher model.SNS follows the push 
+approach. While creating cloudwatch we can enable sns topic which send email to the user against
+the alarm raised upon exceeding trashold limit.
+
+We can create SNS topic going to the sns dashboard and then we need to select the FIFO or
+standard queue , topic name, display name (option) and click ok
+
+Then we need to attach the sns topic to different application
+""

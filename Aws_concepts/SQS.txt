@@ -1,0 +1,11 @@
+""SQS is the simple queue service is the fully managed message queueing service that makes scalling 
+and decoupleing microservices and distributed system.It follows the pull bashed approach
+
+Types of queue
+
+> Standard queue - In statndard queue messages are processed in any order and atleast one message
+delivery
+
+> FIFO(First in first out) - In fifo queue the messages are processed in order and exactly one 
+message delivery
+""

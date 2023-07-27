@@ -1,0 +1,24 @@
+""IAM is the Identity and Access Management which is used to control the access to the Aws
+services. With IAM we can create user , group , create permission and assign policies and
+create role.
+
+user - user are the individual account in which we loged in
+
+group - group are used to create permission and policies to one or more user
+
+role - roles are the used to deligate permission to the user
+
+policies are assigned to the user so that the user can use those specific services
+
+IAM best practices
+
+Lock your AWS account
+
+grant list privillages to the user
+
+delete the unused permissions
+
+use group to assign policy to the user
+
+use MFA over the password for extra security of your aws account
+""

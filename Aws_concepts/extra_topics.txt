@@ -1,0 +1,6 @@
+""AWS organization - AWS organization is used to manage multi AWS accounts.It provides consolidiate
+billing option.We can switch betwwen accounts in aws organization
+
+SCP - SCP is the service control protocol which controls the permissions in an AWS. SCP
+does not grant permissions.
+""

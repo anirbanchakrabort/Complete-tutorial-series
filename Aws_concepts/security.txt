@@ -1,0 +1,8 @@
+""WAF(Web Application Firewall) - act as a firewall for web application which prevents the
+DDOS attack(Disteibuted Denial of Service)
+
+Inspector - Inspector is a Service that inspect our application from any vernalities 
+
+Guard duty - is a threat detection service that continuously monitors our AWS account or
+workloads from any melicious activity and sends security notifications
+""

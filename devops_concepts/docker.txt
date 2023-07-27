@@ -1,0 +1,36 @@
+""Docker is a open source containerization tool that helps us to build,test and deploy our code
+quickly.Docker pacakages the entire code into a standardize pacakages of unit called containerization
+that contains necessary packages that is needed by a application to run
+
+Docker-file - Docker file contains set of code that the user run in the command line to assamble
+an image
+
+Create a demo dockerfile to install tomcat on centos
+
+FROM centos
+RUN yum install java
+RUN mkdir /opt/tomcat
+workdir /opt/tomcat
+ADD tomcat download url link
+RUN tar -xygz url link
+RUN mv tomcat /opt/tomcat
+EXPOSE 8080
+CMD[/opt/tomcat/bin/catalina.sh,"run"]
+
+Build a image form the  docker file
+docker build -t dockerimage .
+
+Build and run a container from docker image
+docker run -d --name tomcat-container -p 8080 dockerimage
+
+dockerimage contains set of instruction to run a docker container
+
+container - is a lightweight , executable and standalone packages of unit that contains packages
+that is needed by a application to run
+
+docker-network - docker networking enables a user to link docker container to one or more networks.
+Docker network provide complete isolation for docker container
+
+docker-compose - docker compose is a tool that used for defining and running multi-container 
+docker application. We can also use a yml file to configure our application
+""

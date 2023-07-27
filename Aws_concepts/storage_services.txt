@@ -1,0 +1,91 @@
+""In AWS there are mainly three type of storage service
+
+> Block level storage(EBS)
+> File level storage(EFS)
+> Object based storage(S3)
+
+EBS - EBS is a highly-sclable block level storage service in aws which is used to store data and is persistant 
+means that the data remains even if the instance is power-off. EBS is availibilty zone specific 
+
+EBS snapshot captures the point-in time backup of an inastance. Snapshots are region specfic
+and are attached to an EC2 instance
+The snapshots are stored in the s3 bucket
+
+EBS volume type
+
+>General purpose ssd(gp1)
+>General purpose ssd(gp2)
+>provisioned iops ssd(iop1)
+>provisioned iops ssd(iop2)
+>cold hdd
+>magnetic hdd(Default)
+>Throughput optimized hdd
+
+EFS - EFS is the highly-sclable Elastic File System which is used to store files in aws.EFS uses nfs(Network File System)
+protocol by which the file can share among the services over the internet.
+
+S3 - S3 is the simple storage service in aws which is used to store and retrive data from anywhere
+over the internet.S3 provides us with unlimited capacity of storage and while craeting a 
+new bucket the bucket name should be unique as S3 is the global service. An user can create 
+100 bucket per region.
+
+S3 classes - 
+
+> S3 standard - highly available , durable and frequently accessed
+
+> S3 intillegent tiering - reduced cost my moving the data to another cost effective S3 classes.
+
+> S3 standard IA - highly available , durable , infrequent access and runs over 3 availibilty zone
+
+> S3 onezone IA - highly available , durable , infrequent access , runs over single availibilty zone
+and cheaper than standard IA
+
+> S3 glacier - archieved data , rarely accessed , retrival time in minutes or hours
+
+> S3 glacier deep archieve - archieved data , rarely accessed , retrival time in hours
+
+> S3 galcier fixed retrival - archieved data , rarely accessed and object are retrieved in 1 or 
+2 year
+
+> S3 glacier instant retrival - archieved data , rarely accessed , objects retrieved instantly 
+in millisecond
+
+Storage gateway - Storage gateway is a service in aws which is used to migrate on-prem appliences in
+cloudbased storage services like S3.It provies on-prem servics to integrae with aws .
+
+Type of storage gateway -
+
+>S3 file gateway
+> S3 volume gateway
+> tape gateway
+> s3 fsx gateway
+
+S3 bucket policy - Bucket policy is used to control the access to the bucket in aws.Bucket
+policy can only be applied to s3 bucket.
+
+S3 versioning - versioning is the way of keeping multiple version of the smae object in S3.
+By default versioning is deseabled. We need to enable the versioning while creating the bucket.
+
+How you can send request to s3 ?
+
+We can send request to s3 using AWS sdk wrapper libraries that wraps the amazon s3 REST API
+
+How you can control access to s3 bucket?
+
+we can control access to s3 bucket using
+
+> Bucket policy - which can only be applied to s3 
+>ACL(Access control list)- can be applied to both s3 and other aws services
+>IAM(Identity and Access Management)- can be applied to only the bucket
+
+Encryption - 
+
+> server-side - AWS managed Encryption using s3 encryptd key or kms key(SSE-S3) or (SSE-KMS) in transit
+client-side - used managed Encryption to encrypt the data in transit or rest
+
+Instance store - Instance store are the high performance physcial disk which are temporarely attached
+and it is empharical ie all the data that are stored in the disk are lost if the instances are
+powerd-off
+
+
+""

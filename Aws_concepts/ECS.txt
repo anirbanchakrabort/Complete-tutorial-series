@@ -1,0 +1,6 @@
+""ECS is the Elastic Container Service in aws is used to run docker container.
+
+There are two launch type in ECS
+> Ec2 type - where we need to specify the number of cluster
+> fargate type - where fargate automatically provision the resources.
+""

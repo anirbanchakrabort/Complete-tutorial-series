@@ -1,0 +1,10 @@
+cloudWatch - cloudWatch is a monitoring service in AWS which is used to monitor the real time application
+perfrmance . we can also view logs and metrices of an aws services.We can also create and 
+generate alams and it trigger alam if the treshhold limit exceeds.
+
+Type of monitoring
+
+> simple monitoring - simple monitoring are not chargable
+> Detailed monitoring - where as detailed monitoring are chargable
+ 
+ we can also enable SNS(simple Notification Service ) while creating a cloud watch

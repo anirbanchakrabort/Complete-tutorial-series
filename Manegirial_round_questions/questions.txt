@@ -1,0 +1,49 @@
+""Introduce yourself - Hi I am Anirban chakraborty . I did my graduation in BCA from Netaji Subash
+Engineeing college kolkata and I also did my post graduation in MCA from Amity University
+kolata. I have a 1 year of exrience in working as a AWS cloud support in Simpost solution for
+client Cadence Design System. I am also a AWS certified cloud practitioner
+
+Why dou you want to join congnizant?
+
+I want to join congnizant because of its reputation as a leading technology company and its 
+focus on inovation and growth
+
+While searching the carear page of congnizant I found that congnizant works on cloud especially
+AWS and as I have worked as AWS cloud support and I also have a AWS certification so I 
+can work and contribute my knowledge so for this reason I want to join congnizant
+
+I believe that congnizant has a dynamic and challanging work culture where I can lean and
+contribute my knowledge
+
+Why did you left your previous organization?
+
+I worked as a AWS cloud support in Simpost solution for client Cadence Design System and the 
+project that I was workig on has came to an end and there was no further project and they kept me to 
+seat on the bench and while seating on the bench I need to come to office regulary and need to
+stay there for entre day and after reaching home I didnot get any time to prepare myself and
+upskill my knowledge.So I left my previous organization
+
+What do you want to see yourself in 5 year?
+
+I see myself as a intregal part of the company who has helped to contribute to the growth of the
+organization. I will continue to develop my skills and knowledge in order  to take more responsibility 
+
+What is your project in your previous organization? What are the roles and responsibilities you had?
+
+My project was a cloudburst and my team member were supporting cloudbursting. My roles and responsibilities involved tasks such as
+
+Product installation - Where I installed different Cadence products in the specific EC2 instance as per the customer's requirement.
+
+IP Whitelisting - Where I whitelisted different public IPs in the EC2 instance under the security group under the inbound rule as per the customer requirements.
+
+License installation - Where I installed different licenses (product or fastx) in the specific EC2 instance as per the customer's requirements
+
+Monitoring of M31 EC2 instance - Where I need to log in to the node and need to check that all the nodes are running, the number of running and pending jobs, CPU utilization, and how much memory is consumed.
+
+I also installed public SSL certificates in the EC2 instance.
+
+I also wrote technical and processed documentation in confluence
+
+I am also well versed with scrum tools like Jira and Salesforce
+
+""

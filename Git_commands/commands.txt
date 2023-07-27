@@ -1,0 +1,17 @@
+""Git commands
+
+git init - create a empty repository
+git status - to check the status of the workspace
+git add . - to add the files in the staging area
+git commit - to commit the change before it is pushed to the master branch
+git push - to push the code to the main repository
+git clone - to copy the entire repository in the local system
+git checkout - is used to create new branch and to switch between the branches
+git  remote add origin - this is used to add the remote repository in our git
+git fork - to copy the files form one repository to own repository
+
+Two types of branches in git
+
+>master branch
+>dev branch
+""

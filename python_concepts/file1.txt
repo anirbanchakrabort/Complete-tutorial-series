@@ -1,0 +1,1 @@
+write mode is used to write text in a files but it will override the entire line

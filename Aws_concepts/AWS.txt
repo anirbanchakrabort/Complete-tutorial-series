@@ -1,0 +1,16 @@
+AWS is Amazon Web Services is the world most adoptive cloud services that provides scalability and elasticity
+and compute capacity in the cloud.It provides us with 200+ services including computing , storage
+networking , database etc. User uses this services as pay as you go basis
+
+Advatage of AWS :-
+
+Trade capital expense for variable expense
+
+Massive economy of scale
+
+unlimited storage capacity
+
+increase speed and agility
+
+
+

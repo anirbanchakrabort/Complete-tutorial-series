@@ -1,0 +1,31 @@
+""ls - ls command is used to list files and directories
+pwd - it shows the present working directory
+cd - to change between files and directories
+cat - is used to view the content of a file
+mv - to move files form one location to another
+cv - copy the files or directories
+mkdir - to create a new directory
+touch - is to create empty file
+sudo - to change user to root user
+ssh - is used to connect to remote hosts
+grep - is used to serach for a particular string in a file
+seed - stands for stream editor and is used for searching , find and replace , insert and delete
+rm - is used to delete files , directories
+curl - The curl command is used to download or upload data using protocols such as FTP, SFTP, HTTP and HTTPS.
+file permission - 
+
+owner - u
+group - g
+other - o
+
+read(r) - 4
+write(w) - 2
+execute(x) - 1
+
+rwx - 777
+rx - 401
+wx - 021
+
+port checking - netstat -tulpn | grep LISTEN (to check the listening port and application)
+
+""

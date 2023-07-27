@@ -1,0 +1,7 @@
+Ansible is a open source configuration management tool that automates software development,
+cloud provisioning and infra source orcestration.
+
+Playbook are the entry point to ansible provisioning
+
+create a demo playbook to build a docker image , run docker container , create latest image tag
+and deploy the image to docker hub

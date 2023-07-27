@@ -1,0 +1,43 @@
+"""Devops - Devops is a software development practice which involves continuous intregation,
+continuous deployment , continuous testing , continuous delivery and continuous monitoring
+
+Devops was introduced to bridge the gape between the developer and operation team. intregation
+earlier days before devops was introduced the developer after writing the code sends the code
+to the operation team and if there was any error or bugs in the code than the operation team
+finds it difficut to fixed the error and the code fails to run in operation machine.This creates
+a conflict between the devops and opps team.
+
+
+
+CI/CD pipeline
+
+CD/CD  is the devops approach in which at first the developer makes chnages to the code and then
+makes a commit and pushed the code to the central repository ie github. After the code has between
+pushed to the github the jenkin server which is the continuous intregation tool pulls the 
+code and starts the build. In continuous intregation the code is compiled and build with the 
+help of maven which is integreted with jenkins and after the build is sucess meaven generates after
+artifact which is stored in the jenkins workspace under /var/lib/jenkins/workspace/target
+and this artifacts are then pushed to the continuous testing where unit testing and continuous testing
+happens with the automated testing tools like selenium. After the code hasbeen successfully
+tested it is pushed to the staging enviornment where final check is done and finally it is 
+deployed to the production server with continuous delivery for final release and after the 
+code has been deployed to the productuon server then the continuous monitorng happen with the tools
+like nagos and visualization tools like grafana.There is a feadback loop which send the code if 
+there is any error and the developer is constantly notified about the entire process
+
+CI/CD pipeline using Devops and AWS
+
+Codecommit (central repository system) 
+
+Codebuild - (build tool continuous integration) where code is being compiled , tested and ready for release for the production
+
+buildspec.yml - contain build command used by codebuild to run the build
+
+artifact - output file for codebuild which is stored in the s3 for retention if the docker container get deleted after successfull build 
+
+Codedeploy - Codedeploy is a deployment service that automates application deployment to Amazon Ec2 , serverless service like Lambda , Amazon ECS .
+
+CodeDeploy can deploy application content that runs on a server and is stored in Amazon S3 buckets
+
+CodePipeline - automates the entire process from codecommit to codedeploy
+"""

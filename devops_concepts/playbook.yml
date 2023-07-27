@@ -1,0 +1,11 @@
+---
+-hostname:ansible
+ tasks:
+  - name: create a docker image
+    command: docker build -t dockerimage .
+  - name: Build and run the container 
+    command: docker run -d --name tomcat-container -p 8080 dockerimage
+  - name: create a image tag to push the image to the docker hub
+    command: docker tag tomcat:latest anirban636/tomcat:latest
+  - name: push the image to the docker hub
+    command: docker push *

@@ -1,0 +1,19 @@
+""Vpc is the virtual private cloud which is used to create virtual network onto the cloud.Each
+vpc is isolately separeted from other virtual network in aws. While creating a vpc we need 
+tospecify the renage of ipv4 addresses from the vpc in the form of classless inter-domain routing
+(cidr) block .A user can create 5 vpc per region. We also need to specify the subnet range which
+is one of the component of vpc.
+A subnet is the range of ip addresses. There are two types of subnet
+
+> private subnet - private subnet doesnot have route to the internet gateway
+>public subnet - public subnet hava a route to the internet gateway
+
+By deafult a vpc canot directly connect with other services in AWS , so after creating a vpc
+we need to attach it to the internet gateway in order to communicate
+
+Nat-gateway - A nat gateway is a component of vpc with which a private subnet can commnicate with
+internet internally . No external services can communicate with the internal service.
+
+NACL- is the network access control list is the firewll for subnet and is stateless ie it provide
+both allow and deny rules.
+""

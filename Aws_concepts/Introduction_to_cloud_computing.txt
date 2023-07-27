@@ -1,0 +1,26 @@
+""Cloud computing - Cloud computing is the on-demand deliverty of compute , networking ,storage
+and database over the internet
+
+Three types of Cloud
+
+Private cloud - This infustructure is owned by single buiness. This infustructure can be hosted 
+in-house or can be hosted internally. This type of infustructure is best suited for large organization
+whose's focus is for lage compuute power, reusability and security.
+
+Public cloud - This infustructure consist of services that are shared among all the organization.
+AWS can be an example of public cloud which provides us with 200+ featured services including
+compute , networking , storage and the user uses this services on the pay as you go basis.
+
+Hbrid cloud - This the combination of private and public cloud.
+
+Services of cloud computing
+
+IaaS(infustructure as a service)- This can be AWS which provides the  infustructure and the 
+user uses the services on the pay as you go basis. AWS provides 200+ featured servoces to the user.
+
+PaaS(Platform as a service)- This can be a docker container that provides the user a platform to
+run the application . Docker container contains packages that are need by the application to rur
+
+SaaS(Software as a servie)- This can be Microsoft 365 which provides softwares like word,
+excel to the user and the user uses this software by purchaging it.
+""

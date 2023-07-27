@@ -1,0 +1,3 @@
+write mode is used to write text in a files but it will override the entire line
+Jiobn
+apend is used to write a text at the end of a line.
